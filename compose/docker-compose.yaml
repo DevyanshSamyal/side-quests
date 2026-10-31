@@ -1,0 +1,21 @@
+name: game
+
+services:
+  stone:
+    build:
+      context: ./stone
+    ports:
+      - "8080:5000"
+    networks:
+      - game-net
+
+  toss:
+    build:
+      context: ./toss
+    ports:
+      - "8081:5000"
+    networks:
+      - game-net
+  
+networks:
+  game-net:
