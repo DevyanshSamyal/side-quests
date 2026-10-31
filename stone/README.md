@@ -1,7 +1,7 @@
 #stone, paper, scissors 
 
 created a stone, paper, scissors game using Flask and severed through JS. \
-dockerised the application. \
+dockerised the application. 
 
 #Terminal: docker
 
