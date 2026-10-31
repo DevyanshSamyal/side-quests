@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toss</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1 id="heading">COIN TOSS</h1>
+    
+    <h2>Scoreboard</h2>
+
+    <p id="player-score">Your Score: 0</p>
+    <p id="computer-score">Computer Score: 0</p>
+
+    <h2>Make Your Move</h2>
+
+    <button id="press">Press</button>
+    <br>
+    <button id="reset">Reset Score</button>
+
+    <p id="player_choice">You got: </p>
+
+    <h3 id="result">Waiting for your move...</h3>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
