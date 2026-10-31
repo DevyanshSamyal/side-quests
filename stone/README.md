@@ -12,3 +12,6 @@ dockerised the application\
 
 <img width="1583" height="1057" alt="Screenshot 2026-10-31 at 19 19 45" src="https://github.com/user-attachments/assets/43ae3209-e0ac-4146-aa9e-b2f0077b5d83" />
 
+<img width="1583" height="1057" alt="Screenshot 2026-10-31 at 19 21 24" src="https://github.com/user-attachments/assets/38e1686d-f989-485b-9d68-f0556ab10a01" />
+
+
