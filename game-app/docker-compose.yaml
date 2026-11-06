@@ -1,0 +1,36 @@
+name: game
+
+services:
+  stone:
+    build:
+      context: ./stone
+    #ports:
+    #  - "8080:5000"
+    networks:
+      - game-net
+
+  toss:
+    build:
+      context: ./toss
+    #ports:
+    #  - "8081:5000"
+    networks:
+      - game-net
+  
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:8080"
+    volumes:
+      - type: bind
+        source: ./nginx/nginx.conf
+        target: /etc/nginx/conf.d/default.conf
+        read_only: true
+    networks:
+      - game-net
+    depends_on:
+      - stone
+      - toss
+
+networks:
+  game-net:

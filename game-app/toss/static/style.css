@@ -1,0 +1,38 @@
+body {
+    background-color: #5a6665;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(10, 10, 10);
+    font-size: 36px;
+}
+
+h2 {
+    color: #444444;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+p {
+    font-size: 18px;
+}
+
+button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+    opacity: 0.6;
+}

@@ -1,0 +1,50 @@
+body {
+    background-color: #3c484b;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+h2 {
+    color: #1b6429;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+p {
+    font-size: 18px;
+}
+
+button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.draw {
+    color: orange;
+}
